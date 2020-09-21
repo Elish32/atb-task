@@ -1,0 +1,33 @@
+
+.footer-flex-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-flex-container > div {
+    font-size: 11px;
+    color: #9B9B9B;
+    width: 33%;
+    margin: 10px;
+  }
+  
+  .footer-flex-container > div span {
+    margin: 0 5px;
+  }
+  
+  footer {
+    margin-top: 30px;
+    clear: right;
+  }
+
+  .icon-container {
+    margin-right: 10px;
+    float: left;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #F3F3F3;
+    text-align: center;
+    line-height: 25px;
+  }

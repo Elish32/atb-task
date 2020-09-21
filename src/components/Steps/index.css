@@ -1,0 +1,52 @@
+.tabSteps {
+  margin: 50px 0px 50px 0px;
+  background: #ffd217;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 8px;
+  height: 5px;
+}
+
+.step-content {
+  height: 320px;
+}
+.tabSteps .step {
+  position: relative;
+}
+
+.tabSteps .step .dot {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  background: #ffd217;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+.tabSteps .step .whiteDot {
+  display: none;
+  background: white;
+  width: 9px;
+  height: 9px;
+  z-index: 11;
+}
+
+.tabSteps .step.completed .whiteDot {
+  display: block;
+}
+
+.tabSteps .step span {
+  position: relative;
+  top: -30px;
+  color: rgba(82, 82, 82, 0.5);
+  font-size: 12px;
+}
+
+.tabSteps .step.active span {
+  color: #525252;
+}
